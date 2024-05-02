@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/verdana');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,
+            #ed6ea0, #ec8c69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#welcome {
+    border-right: .15em solid transparent;
+    font-size: 25px;
+    cursor: default;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+#content {
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: scroll;
+    display: none;
+}
+
+.item {
+    display: block;
+    width: 100%;
+    font-family: 'Verdana', sans-serif;
+    font-size: 50px;
+}
