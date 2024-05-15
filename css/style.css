@@ -33,6 +33,12 @@ body {
     padding-right: 20px;
 }
 
+@media (max-width: 768px) {
+    #welcome {
+        font-size: 18px;
+    }
+}
+
 @keyframes typing {
     from {
         width: 0;
